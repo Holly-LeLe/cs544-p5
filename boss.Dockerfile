@@ -1,3 +1,3 @@
 FROM p5-base
 
-CMD ["sleep", "infinity"]
+CMD ["/opt/spark/sbin/start-master.sh", "-h", "boss"]
